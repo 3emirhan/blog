@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #060202;
+  }
+  
+  a {
+    color: #050101;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background: #0c0b0b;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header ul li {
+    margin: 0 15px;
+  }
+  
+  header ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #010000;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    padding: 2rem;
+    background: #808080;
+    color: #f7f4f4;
+  }
+  
+  .featured-posts .post-card {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-posts .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #040c13;
+    font-weight: bold;
+  }
+  
+  .posts-section .post-item {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(242, 236, 236, 0.1);
+  }
+  
+  /* Gallery Styles */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-item img, .gallery-item video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact and Subscribe Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #808080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #808080;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+body > main > section > form > textarea{
+width: 50%;    
+
+}
